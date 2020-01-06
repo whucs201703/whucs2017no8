@@ -3,6 +3,8 @@
     package="com.example.translate">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:name=".MyApplication"
@@ -16,6 +18,8 @@
             android:label="翻译历史" />
         <activity android:name=".LangChooseActivity"
             android:label="语言选择" />
+        <activity android:name=".Main"
+            android:label="词典" />
         <activity android:name=".TranslateDemo"
             android:label="翻译">
             <intent-filter>
