@@ -1,0 +1,4 @@
+	使用AutoCompleteTextView,词典数据保存在小型数据库sqlite中，在res的raw文件夹下，名为dictionary.db，运行该程序会自动复制到手机内置SD卡下。
+该程序主要文件分为Main.java和DictionaryAdapter.java。
+	Main文件中主要是对数据库的调用和对输入框中文字变化情况的判断以用来提示单词，并且定义了当点击查询按钮后应该返回的消息。
+	DictionaryAdapter文件中则定义的是翻译功能实现时界面上的一些变化。
